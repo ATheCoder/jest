@@ -88,7 +88,7 @@
     "lint:prettier": "yarn --silent lint:prettier:ci --fix",
     "lint:prettier:ci": "prettylint '**/*.{md,yml,yaml}' --ignore-path .gitignore",
     "postinstall": "opencollective postinstall && yarn build",
-    "publish": "yarn build-clean && yarn build && lerna publish --silent",
+    "publish": "yarn build-clean && yarn build && lerna publish",
     "test-ci-es5-build-in-browser": "karma start --single-run",
     "test-ci": "yarn jest-coverage --color -i --config jest.config.ci.js && yarn test-leak && node scripts/mapCoverage.js && codecov",
     "test-ci-partial": "yarn jest --color -i --config jest.config.ci.js",
@@ -110,28 +110,26 @@
     "proseWrap": "never",
     "singleQuote": true,
     "trailingComma": "all",
-    "overrides": [
-      {
-        "excludeFiles": [
-          "e2e/__tests__/**/*",
-          "website/versioned_docs/**/*.md"
-        ],
-        "files": [
-          "examples/**/*",
-          "scripts/**/*",
-          "e2e/*/**/*",
-          "website/*.js",
-          "website/*/**/*",
-          "eslintImportResolver.js",
-          "babel.config.js"
-        ],
-        "options": {
-          "printWidth": 80,
-          "singleQuote": true,
-          "trailingComma": "es5"
-        }
+    "overrides": [{
+      "excludeFiles": [
+        "e2e/__tests__/**/*",
+        "website/versioned_docs/**/*.md"
+      ],
+      "files": [
+        "examples/**/*",
+        "scripts/**/*",
+        "e2e/*/**/*",
+        "website/*.js",
+        "website/*/**/*",
+        "eslintImportResolver.js",
+        "babel.config.js"
+      ],
+      "options": {
+        "printWidth": 80,
+        "singleQuote": true,
+        "trailingComma": "es5"
       }
-    ]
+    }]
   },
   "collective": {
     "type": "opencollective",
