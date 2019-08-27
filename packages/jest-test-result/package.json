@@ -1,6 +1,6 @@
 {
   "name": "@jest/test-result",
-  "version": "24.10.0",
+  "version": "24.10.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/athecoder/jest.git",
@@ -10,8 +10,8 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "dependencies": {
-    "@jest/console": "^24.10.0",
-    "@jest/types": "^24.10.0",
+    "@jest/console": "^24.10.2",
+    "@jest/types": "^24.10.2",
     "@types/istanbul-lib-coverage": "^2.0.0"
   },
   "engines": {

@@ -1,6 +1,6 @@
 {
   "name": "jest-snapshot",
-  "version": "24.10.0",
+  "version": "24.10.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/athecoder/jest.git",
@@ -11,17 +11,17 @@
   "types": "build/index.d.ts",
   "dependencies": {
     "@babel/types": "^7.0.0",
-    "@jest/types": "^24.10.0",
+    "@jest/types": "^24.10.2",
     "chalk": "^2.0.1",
-    "expect": "^24.10.0",
-    "jest-diff": "^24.10.0",
-    "jest-get-type": "^24.10.0",
-    "jest-matcher-utils": "^24.10.0",
-    "jest-message-util": "^24.10.0",
-    "jest-resolve": "^24.10.0",
+    "expect": "^24.10.2",
+    "jest-diff": "^24.10.2",
+    "jest-get-type": "^24.10.2",
+    "jest-matcher-utils": "^24.10.2",
+    "jest-message-util": "^24.10.2",
+    "jest-resolve": "^24.10.2",
     "mkdirp": "^0.5.1",
     "natural-compare": "^1.4.0",
-    "pretty-format": "^24.10.0",
+    "pretty-format": "^24.10.2",
     "semver": "^6.2.0"
   },
   "devDependencies": {
@@ -30,7 +30,7 @@
     "@types/natural-compare": "^1.4.0",
     "@types/prettier": "^1.16.1",
     "@types/semver": "^6.0.1",
-    "jest-haste-map": "^24.10.0",
+    "jest-haste-map": "^24.10.2",
     "prettier": "^1.13.4"
   },
   "engines": {

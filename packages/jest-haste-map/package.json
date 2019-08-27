@@ -1,6 +1,6 @@
 {
   "name": "jest-haste-map",
-  "version": "24.10.0",
+  "version": "24.10.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/athecoder/jest.git",
@@ -10,14 +10,14 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "dependencies": {
-    "@jest/types": "^24.10.0",
+    "@jest/types": "^24.10.2",
     "anymatch": "^3.0.3",
     "fb-watchman": "^2.0.0",
     "graceful-fs": "^4.1.15",
     "invariant": "^2.2.4",
-    "jest-serializer": "^24.10.0",
-    "jest-util": "^24.10.0",
-    "jest-worker": "^24.10.0",
+    "jest-serializer": "^24.10.2",
+    "jest-util": "^24.10.2",
+    "jest-worker": "^24.10.2",
     "micromatch": "^4.0.2",
     "sane": "^4.0.3",
     "walker": "^1.0.7"

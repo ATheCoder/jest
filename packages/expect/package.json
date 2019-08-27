@@ -1,6 +1,6 @@
 {
   "name": "expect",
-  "version": "24.10.0",
+  "version": "24.10.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/athecoder/jest.git",
@@ -11,12 +11,12 @@
   "types": "build/index.d.ts",
   "browser": "build-es5/index.js",
   "dependencies": {
-    "@jest/types": "^24.10.0",
+    "@jest/types": "^24.10.2",
     "ansi-styles": "^4.0.0",
-    "jest-get-type": "^24.10.0",
-    "jest-matcher-utils": "^24.10.0",
-    "jest-message-util": "^24.10.0",
-    "jest-regex-util": "^24.10.0"
+    "jest-get-type": "^24.10.2",
+    "jest-matcher-utils": "^24.10.2",
+    "jest-message-util": "^24.10.2",
+    "jest-regex-util": "^24.10.2"
   },
   "devDependencies": {
     "@types/ansi-styles": "^3.2.1",

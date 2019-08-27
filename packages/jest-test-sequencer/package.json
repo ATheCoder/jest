@@ -1,6 +1,6 @@
 {
   "name": "@jest/test-sequencer",
-  "version": "24.10.0",
+  "version": "24.10.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/athecoder/jest.git",
@@ -10,10 +10,10 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "dependencies": {
-    "@jest/test-result": "^24.10.0",
-    "jest-haste-map": "^24.10.0",
-    "jest-runner": "^24.10.0",
-    "jest-runtime": "^24.10.0"
+    "@jest/test-result": "^24.10.2",
+    "jest-haste-map": "^24.10.2",
+    "jest-runner": "^24.10.2",
+    "jest-runtime": "^24.10.2"
   },
   "engines": {
     "node": ">= 8"
