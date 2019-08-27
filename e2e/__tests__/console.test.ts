@@ -50,7 +50,7 @@ test('does not print to console with --silent', () => {
   expect(wrap(summary)).toMatchSnapshot();
 });
 
-// issue: https://github.com/facebook/jest/issues/5223
+// issue: https://github.com/athecoder/jest/issues/5223
 test('the jsdom console is the same as the test console', () => {
   const {stderr, stdout, status} = runJest('console-jsdom');
   const {summary, rest} = extractSummary(stderr);

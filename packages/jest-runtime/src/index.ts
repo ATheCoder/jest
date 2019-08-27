@@ -178,7 +178,7 @@ class Runtime {
     }
   }
 
-  // TODO: Make this `static shouldInstrument = shouldInstrument;` after https://github.com/facebook/jest/issues/7846
+  // TODO: Make this `static shouldInstrument = shouldInstrument;` after https://github.com/athecoder/jest/issues/7846
   static shouldInstrument(
     filename: Config.Path,
     options: ShouldInstrumentOptions,

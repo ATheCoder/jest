@@ -10,7 +10,7 @@
 
 describe('toEqual', () => {
   describe('duck type', () => {
-    // https://github.com/facebook/jest/issues/7786
+    // https://github.com/athecoder/jest/issues/7786
 
     const createElement = (name, ...childNodes) => ({
       childNodes,

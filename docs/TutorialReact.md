@@ -170,7 +170,7 @@ exports[`Link changes the class when hovered 3`] = `
 
 The next time you run the tests, the rendered output will be compared to the previously created snapshot. The snapshot should be committed along code changes. When a snapshot test fails, you need to inspect whether it is an intended or unintended change. If the change is expected you can invoke Jest with `jest -u` to overwrite the existing snapshot.
 
-The code for this example is available at [examples/snapshot](https://github.com/facebook/jest/tree/master/examples/snapshot).
+The code for this example is available at [examples/snapshot](https://github.com/athecoder/jest/tree/master/examples/snapshot).
 
 #### Snapshot Testing with Mocks, Enzyme and React 16
 
@@ -272,7 +272,7 @@ it('CheckboxWithLabel changes the text after click', () => {
 });
 ```
 
-The code for this example is available at [examples/react-testing-library](https://github.com/facebook/jest/tree/master/examples/react-testing-library).
+The code for this example is available at [examples/react-testing-library](https://github.com/athecoder/jest/tree/master/examples/react-testing-library).
 
 #### Enzyme
 
@@ -299,7 +299,7 @@ test('CheckboxWithLabel changes the text after click', () => {
 });
 ```
 
-The code for this example is available at [examples/enzyme](https://github.com/facebook/jest/tree/master/examples/enzyme).
+The code for this example is available at [examples/enzyme](https://github.com/athecoder/jest/tree/master/examples/enzyme).
 
 ### Custom transformers
 

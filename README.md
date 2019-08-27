@@ -205,10 +205,10 @@ Learn more about using [Jest on the official site!](https://jestjs.io)
 
 ## Badge
 
-Show the world you're using _Jest_ `→` [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest) [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest)
+Show the world you're using _Jest_ `→` [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/athecoder/jest) [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/athecoder/jest)
 
 ```md
-[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest) [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest)
+[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/athecoder/jest) [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/athecoder/jest)
 ```
 
 ## Contributing
@@ -223,13 +223,13 @@ Facebook has adopted a Code of Conduct that we expect project participants to ad
 
 Read our [contributing guide](CONTRIBUTING.md) to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to Jest.
 
-### [Good First Issues](https://github.com/facebook/jest/labels/good%20first%20issue)
+### [Good First Issues](https://github.com/athecoder/jest/labels/good%20first%20issue)
 
-To help you get your feet wet and get you familiar with our contribution process, we have a list of [good first issues](https://github.com/facebook/jest/labels/good%20first%20issue) that contain bugs which have a relatively limited scope. This is a great place to get started.
+To help you get your feet wet and get you familiar with our contribution process, we have a list of [good first issues](https://github.com/athecoder/jest/labels/good%20first%20issue) that contain bugs which have a relatively limited scope. This is a great place to get started.
 
 ## Credits
 
-This project exists thanks to all the people who [contribute](CONTRIBUTING.md). <a href="https://github.com/facebook/jest/graphs/contributors"><img src="https://opencollective.com/jest/contributors.svg?width=890&button=false" /></a>
+This project exists thanks to all the people who [contribute](CONTRIBUTING.md). <a href="https://github.com/athecoder/jest/graphs/contributors"><img src="https://opencollective.com/jest/contributors.svg?width=890&button=false" /></a>
 
 ### [Backers](https://opencollective.com/jest#backer)
 

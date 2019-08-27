@@ -12,7 +12,7 @@ import {run} from '../Utils';
 
 const DIR = path.resolve(__dirname, '..', 'pnp');
 
-// https://github.com/facebook/jest/pull/8094#issuecomment-471220694
+// https://github.com/athecoder/jest/pull/8094#issuecomment-471220694
 skipSuiteOnWindows();
 
 beforeEach(() => {

@@ -103,7 +103,7 @@ function findNative(
   let stdout = '';
   if (child.stdout === null) {
     throw new Error(
-      'stdout is null - this should never happen. Please open up an issue at https://github.com/facebook/jest',
+      'stdout is null - this should never happen. Please open up an issue at https://github.com/athecoder/jest',
     );
   }
   child.stdout.setEncoding('utf-8');

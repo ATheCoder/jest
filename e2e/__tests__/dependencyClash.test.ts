@@ -28,7 +28,7 @@ beforeEach(() => {
 // `invariant` package from npm and `invariant.js` that provides `invariant`
 // module we can still require the right invariant. This is pretty specific
 // use case and in the future we should probably delete this test.
-// see: https://github.com/facebook/jest/pull/6687
+// see: https://github.com/athecoder/jest/pull/6687
 test('does not require project modules from inside node_modules', () => {
   writeFiles(tempDir, {
     '__tests__/test.js': `

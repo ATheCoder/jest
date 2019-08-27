@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-// See: https://github.com/facebook/jest/pull/5154
+// See: https://github.com/athecoder/jest/pull/5154
 export default function convertDescriptorToString<
   T extends number | string | Function | undefined
 >(descriptor: T): T | string {

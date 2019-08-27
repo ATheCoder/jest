@@ -50,7 +50,7 @@ class Help extends React.Component {
             Find out what's new with Jest.\n\n- Follow
             [Jest](https://twitter.com/fbjest) on Twitter.\n- Subscribe to the
             [Jest blog](/blog/).\n- Look at the
-            [changelog](https://github.com/facebook/jest/blob/master/CHANGELOG.md).
+            [changelog](https://github.com/athecoder/jest/blob/master/CHANGELOG.md).
           </translate>
         ),
         title: <translate>Stay up to date</translate>,

@@ -40,7 +40,7 @@ class Versions extends React.Component {
                     </a>
                   </td>
                   <td>
-                    <a href="https://github.com/facebook/jest/blob/master/CHANGELOG.md">
+                    <a href="https://github.com/athecoder/jest/blob/master/CHANGELOG.md">
                       Release Notes
                     </a>
                   </td>
@@ -63,7 +63,7 @@ class Versions extends React.Component {
                     </a>
                   </td>
                   <td>
-                    <a href="https://github.com/facebook/jest">Source Code</a>
+                    <a href="https://github.com/athecoder/jest">Source Code</a>
                   </td>
                 </tr>
               </tbody>

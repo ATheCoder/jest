@@ -27,7 +27,7 @@ import HasteModuleMap, {
 import nodeCrawl = require('./crawlers/node');
 import normalizePathSep from './lib/normalizePathSep';
 import watchmanCrawl = require('./crawlers/watchman');
-// @ts-ignore: not converted to TypeScript - it's a fork: https://github.com/facebook/jest/pull/5387
+// @ts-ignore: not converted to TypeScript - it's a fork: https://github.com/athecoder/jest/pull/5387
 import WatchmanWatcher from './lib/WatchmanWatcher';
 import FSEventsWatcher = require('./lib/FSEventsWatcher');
 import * as fastPath from './lib/fast_path';
@@ -276,7 +276,7 @@ class HasteMap extends EventEmitter {
     if (options.ignorePattern && !(options.ignorePattern instanceof RegExp)) {
       this._console.warn(
         'jest-haste-map: the `ignorePattern` options as a function is being ' +
-          'deprecated. Provide a RegExp instead. See https://github.com/facebook/jest/pull/4063.',
+          'deprecated. Provide a RegExp instead. See https://github.com/athecoder/jest/pull/4063.',
       );
     }
 

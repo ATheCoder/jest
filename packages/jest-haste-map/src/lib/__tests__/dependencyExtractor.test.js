@@ -71,7 +71,7 @@ describe('dependencyExtractor', () => {
     expect(extract(code)).toEqual(new Set(['dep1', 'dep2', 'dep3', 'dep4']));
   });
 
-  // https://github.com/facebook/jest/issues/8547
+  // https://github.com/athecoder/jest/issues/8547
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Import_a_module_for_its_side_effects_only
   it('should extract dependencies from side-effect only `import` statements', () => {
     const code = `

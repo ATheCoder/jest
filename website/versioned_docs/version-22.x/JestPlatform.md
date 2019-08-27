@@ -24,7 +24,7 @@ getChangedFilesForRoots(['./'], {
 }).then(result => console.log(result.changedFiles));
 ```
 
-You can read more about `jest-changed-files` in the [readme file](https://github.com/facebook/jest/blob/master/packages/jest-changed-files/README.md).
+You can read more about `jest-changed-files` in the [readme file](https://github.com/athecoder/jest/blob/master/packages/jest-changed-files/README.md).
 
 ## jest-diff
 
@@ -69,7 +69,7 @@ const parsed = parseWithComments(code);
 console.log(parsed);
 ```
 
-You can read more about `jest-docblock` in the [readme file](https://github.com/facebook/jest/blob/master/packages/jest-docblock/README.md).
+You can read more about `jest-docblock` in the [readme file](https://github.com/athecoder/jest/blob/master/packages/jest-docblock/README.md).
 
 ## jest-get-type
 
@@ -116,7 +116,7 @@ const result = validate(configByUser, {
 console.log(result);
 ```
 
-You can read more about `jest-validate` in the [readme file](https://github.com/facebook/jest/blob/master/packages/jest-validate/README.md).
+You can read more about `jest-validate` in the [readme file](https://github.com/athecoder/jest/blob/master/packages/jest-validate/README.md).
 
 ## jest-worker
 
@@ -152,7 +152,7 @@ async function main() {
 main();
 ```
 
-You can read more about `jest-worker` in the [readme file](https://github.com/facebook/jest/blob/master/packages/jest-worker/README.md).
+You can read more about `jest-worker` in the [readme file](https://github.com/athecoder/jest/blob/master/packages/jest-worker/README.md).
 
 ## pretty-format
 
@@ -172,4 +172,4 @@ val.array = [-0, Infinity, NaN];
 console.log(prettyFormat(val));
 ```
 
-You can read more about `pretty-format` in the [readme file](https://github.com/facebook/jest/blob/master/packages/pretty-format/README.md).
+You can read more about `pretty-format` in the [readme file](https://github.com/athecoder/jest/blob/master/packages/pretty-format/README.md).

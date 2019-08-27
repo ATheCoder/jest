@@ -642,7 +642,7 @@ class MyCustomReporter {
 }
 ```
 
-For the full list of methods and argument types see `Reporter` interface in [packages/jest-reporters/src/types.ts](https://github.com/facebook/jest/blob/master/packages/jest-reporters/src/types.ts)
+For the full list of methods and argument types see `Reporter` interface in [packages/jest-reporters/src/types.ts](https://github.com/athecoder/jest/blob/master/packages/jest-reporters/src/types.ts)
 
 ### `resetMocks` [boolean]
 
@@ -862,7 +862,7 @@ test('use jsdom in this test file', () => {
 
 You can create your own module that will be used for setting up the test environment. The module must export a class with `setup`, `teardown` and `runScript` methods. You can also pass variables from this module to your test suites by assigning them to `this.global` object &ndash; this will make them available in your test suites as global variables.
 
-The class may optionally expose a `handleTestEvent` method to bind to events fired by [`jest-circus`](https://github.com/facebook/jest/tree/master/packages/jest-circus).
+The class may optionally expose a `handleTestEvent` method to bind to events fired by [`jest-circus`](https://github.com/athecoder/jest/tree/master/packages/jest-circus).
 
 Any docblock pragmas in test files will be passed to the environment constructor and can be used for per-test configuration. If the pragma does not have a value, it will be present in the object with it's value set to an empty string. If the pragma is not present, it will not be present in the object.
 
@@ -1033,7 +1033,7 @@ function testRunner(
 ): Promise<TestResult>;
 ```
 
-An example of such function can be found in our default [jasmine2 test runner package](https://github.com/facebook/jest/blob/master/packages/jest-jasmine2/src/index.ts).
+An example of such function can be found in our default [jasmine2 test runner package](https://github.com/athecoder/jest/blob/master/packages/jest-jasmine2/src/index.ts).
 
 ### `testSequencer` [string]
 
@@ -1051,7 +1051,7 @@ const Sequencer = require('@jest/test-sequencer').default;
 class CustomSequencer extends Sequencer {
   sort(tests) {
     // Test structure information
-    // https://github.com/facebook/jest/blob/6b8b1404a1d9254e7d5d90a8934087a9c9899dab/packages/jest-runner/src/types.ts#L17-L21
+    // https://github.com/athecoder/jest/blob/6b8b1404a1d9254e7d5d90a8934087a9c9899dab/packages/jest-runner/src/types.ts#L17-L21
     const copyTests = Array.from(tests);
     return copyTests.sort((testA, testB) => (testA.path > testB.path ? 1 : -1));
   }
@@ -1076,7 +1076,7 @@ Setting this value to `fake` allows the use of fake timers for functions such as
 
 Default: `undefined`
 
-A map from regular expressions to paths to transformers. A transformer is a module that provides a synchronous function for transforming source files. For example, if you wanted to be able to use a new language feature in your modules or tests that isn't yet supported by node, you might plug in one of many compilers that compile a future version of JavaScript to a current one. Example: see the [examples/typescript](https://github.com/facebook/jest/blob/master/examples/typescript/package.json#L16) example or the [webpack tutorial](Webpack.md).
+A map from regular expressions to paths to transformers. A transformer is a module that provides a synchronous function for transforming source files. For example, if you wanted to be able to use a new language feature in your modules or tests that isn't yet supported by node, you might plug in one of many compilers that compile a future version of JavaScript to a current one. Example: see the [examples/typescript](https://github.com/athecoder/jest/blob/master/examples/typescript/package.json#L16) example or the [webpack tutorial](Webpack.md).
 
 Examples of such compilers include [Babel](https://babeljs.io/), [TypeScript](http://www.typescriptlang.org/) and [async-to-gen](http://github.com/leebyron/async-to-gen#jest).
 
@@ -1084,7 +1084,7 @@ You can pass configuration to a transformer like `{filePattern: ['path-to-transf
 
 _Note: a transformer is only run once per file unless the file has changed. During development of a transformer it can be useful to run Jest with `--no-cache` to frequently [delete Jest's cache](Troubleshooting.md#caching-issues)._
 
-_Note: if you are using the `babel-jest` transformer and want to use an additional code preprocessor, keep in mind that when "transform" is overwritten in any way the `babel-jest` is not loaded automatically anymore. If you want to use it to compile JavaScript code it has to be explicitly defined. See [babel-jest plugin](https://github.com/facebook/jest/tree/master/packages/babel-jest#setup)_
+_Note: if you are using the `babel-jest` transformer and want to use an additional code preprocessor, keep in mind that when "transform" is overwritten in any way the `babel-jest` is not loaded automatically anymore. If you want to use it to compile JavaScript code it has to be explicitly defined. See [babel-jest plugin](https://github.com/athecoder/jest/tree/master/packages/babel-jest#setup)_
 
 ### `transformIgnorePatterns` [array<string>]
 

@@ -79,7 +79,7 @@ const users = [
   },
 ];
 
-const repoUrl = 'https://github.com/facebook/jest';
+const repoUrl = 'https://github.com/athecoder/jest';
 
 const siteConfig = {
   title: 'Jest',
@@ -124,7 +124,7 @@ const siteConfig = {
   scripts: ['https://buttons.github.io/buttons.js'],
   repoUrl,
   siteConfigUrl:
-    'https://github.com/facebook/jest/edit/master/website/siteConfig.js',
+    'https://github.com/athecoder/jest/edit/master/website/siteConfig.js',
   cleanUrl: true,
   twitter: true,
   twitterUsername: 'fbjest',

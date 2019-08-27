@@ -14,11 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/jest",
+    "url": "https://github.com/athecoder/jest",
     "directory": "packages/jest-watcher"
   },
   "bugs": {
-    "url": "https://github.com/facebook/jest/issues"
+    "url": "https://github.com/athecoder/jest/issues"
   },
   "engines": {
     "node": ">= 8"

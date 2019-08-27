@@ -250,7 +250,7 @@ test('writes snapshots with non-literals in expect(...)', () => {
   expect(wrap(fileAfter)).toMatchSnapshot();
 });
 
-// issue: https://github.com/facebook/jest/issues/6702
+// issue: https://github.com/athecoder/jest/issues/6702
 test('handles mocking native modules prettier relies on', () => {
   const filename = 'mockFail.test.js';
   const test = `

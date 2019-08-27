@@ -295,7 +295,7 @@ export default class ScriptTransformer {
 
     if (!transformed.map) {
       //Could be a potential freeze here.
-      //See: https://github.com/facebook/jest/pull/5177#discussion_r158883570
+      //See: https://github.com/athecoder/jest/pull/5177#discussion_r158883570
       const inlineSourceMap = sourcemapFromSource(transformed.code);
 
       if (inlineSourceMap) {
