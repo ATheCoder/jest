@@ -851,6 +851,7 @@ export default function normalize(
       case 'verbose':
       case 'watch':
       case 'watchAll':
+      case 'shouldMapperReturnString':
       case 'watchman':
         value = oldOptions[key];
         break;

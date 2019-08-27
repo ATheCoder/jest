@@ -116,6 +116,7 @@ export type DisplayName =
     };
 
 export type InitialOptions = {
+  shouldMapperReturnString?: Boolean
   automock?: boolean;
   bail?: boolean | number;
   browser?: boolean;
@@ -418,6 +419,7 @@ export type ProjectConfig = {
   transformIgnorePatterns: Array<Glob>;
   watchPathIgnorePatterns: Array<string>;
   unmockedModulePathPatterns: Array<string> | null | undefined;
+  shouldMapperReturnString: Boolean;
 };
 
 export type Argv = Arguments<

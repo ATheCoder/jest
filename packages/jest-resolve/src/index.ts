@@ -69,6 +69,7 @@ class Resolver {
       platforms: options.platforms,
       resolver: options.resolver,
       rootDir: options.rootDir,
+      shouldMapperReturnString: options.shouldMapperReturnString,
     };
     this._supportsNativePlatform = options.platforms
       ? options.platforms.includes(NATIVE_PLATFORM)
@@ -394,6 +395,8 @@ class Resolver {
               rootDir: this._options.rootDir,
             });
           if (!module) {
+            if(this._options.shouldMapperReturnString)
+              return updatedName
             throw createNoMappedModuleFoundError(
               moduleName,
               updatedName,

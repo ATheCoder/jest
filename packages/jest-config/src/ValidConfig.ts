@@ -138,6 +138,7 @@ const initialOptions: Config.InitialOptions = {
     ],
   ],
   watchman: true,
+  shouldMapperReturnString: false,
 };
 
 export default initialOptions;

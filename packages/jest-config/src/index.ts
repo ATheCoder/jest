@@ -212,6 +212,7 @@ const groupOptions = (
     transformIgnorePatterns: options.transformIgnorePatterns,
     unmockedModulePathPatterns: options.unmockedModulePathPatterns,
     watchPathIgnorePatterns: options.watchPathIgnorePatterns,
+    shouldMapperReturnString: options.shouldMapperReturnString,
   }),
 });
 

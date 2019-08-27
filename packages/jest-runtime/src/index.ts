@@ -270,6 +270,7 @@ class Runtime {
       platforms: config.haste.platforms,
       resolver: config.resolver,
       rootDir: config.rootDir,
+      shouldMapperReturnString: config.shouldMapperReturnString
     });
   }
 

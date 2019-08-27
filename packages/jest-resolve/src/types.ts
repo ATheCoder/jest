@@ -18,6 +18,7 @@ export type ResolverConfig = {
   platforms?: Array<string>;
   resolver?: Config.Path | null;
   rootDir: Config.Path;
+  shouldMapperReturnString: Boolean;
 };
 
 type ModuleNameMapperConfig = {
