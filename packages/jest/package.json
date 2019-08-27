@@ -1,7 +1,7 @@
 {
   "name": "athecoder-jest",
   "description": "Delightful JavaScript Testing.",
-  "version": "24.10.0",
+  "version": "24.10.1",
   "main": "build/jest.js",
   "types": "build/jest.d.ts",
   "dependencies": {
